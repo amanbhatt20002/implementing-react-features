@@ -39,7 +39,7 @@ function App() {
 
    <div className="pagination">
   {[...Array(totalPages)].map((_, i) => (
-    <span key={i} className="page_no" onClick={()=>handleClick(i)}>{i + 1}</span>
+    <span key={i} className="page_index" onClick={()=>handleClick(i)}>{i + 1}</span>
   ))}
 </div>
 
