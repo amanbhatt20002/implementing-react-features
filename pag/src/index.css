@@ -2,3 +2,16 @@
   display: flex;
   flex-wrap: wrap;
 }
+.pagination{
+  text-align: center;
+  margin: 5px;
+}
+.page_no{
+  padding: 5px;
+  border: 1px;
+  cursor: pointer;
+  margin :2px;
+}
+.heading{
+  text-align: center;
+}
